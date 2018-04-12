@@ -1,0 +1,7 @@
+server:
+  port: 20000
+spring:
+  application:
+    name: ENHANCE-ZIPKIN
+  profiles:
+    active: dev

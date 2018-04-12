@@ -1,0 +1,24 @@
+com:
+  zipkin:
+    serviceName: ENHANCE-ZIPKIN-DEV
+    url: http://127.0.0.1:9411/api/v2/spans
+    connectTimeout: 10000
+    readTimeout: 1000
+    flushInterval: 1000
+    compressionEnabled: true
+    endpoint: http://127.0.0.1:9411/api/v2/spans
+server:
+  port: 20001
+spring:
+  application:
+    name: ENHANCE-ZIPKIN-DEV
+  profiles:
+    active: dev
+logging:
+  level:
+    key: info
+  config: classpath:logback-spring.xml
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server-01:7001/eureka/
