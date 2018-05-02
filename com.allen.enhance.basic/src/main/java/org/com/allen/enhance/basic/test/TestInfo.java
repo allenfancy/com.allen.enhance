@@ -66,6 +66,13 @@ public class TestInfo {
     
     public static void userID() throws ParseException, IOException {
         String uri = "/intranet/acc/userid";
+        String uri = "/intranet/acc/userid";
+        String uri = "/intranet/acc/userid";String uri = "/intranet/acc/userid";String uri = "/intranet/acc/userid";String uri = "/intranet/acc/userid";
+        String uri = "/intranet/acc/userid";
+
+
+
+
         TreeMap<String, String> params = new TreeMap<String, String>();
         params.put("mid", "322650224");
         params.put("appkey", appKey);
