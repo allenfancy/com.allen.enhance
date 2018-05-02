@@ -23,6 +23,7 @@ public class TestController {
 
     @RequestMapping(value = "/getInfo", method = RequestMethod.GET)
     public @ResponseBody Object testInfo() {
-        return Info.builder().name("allen").age(27).version("1.0.0").build();
+        throw new RuntimeException("null point exception");
+       // return Info.builder().name("allen").age(27).version("1.0.0").build();
     }
 }
