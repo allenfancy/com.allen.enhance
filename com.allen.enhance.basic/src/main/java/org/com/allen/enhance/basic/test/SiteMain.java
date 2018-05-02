@@ -31,8 +31,8 @@ public class SiteMain {
         // 1.测试绑定手机,先验证邮箱
         //testMailSend(11,"");
         //testMailCheck(11,"","369995");
-       // testSmsSend(8,"13122119298");
-       // testSmsCheck(8, "13122119298","135951");
+       // testSmsSend(8,"");
+       // testSmsCheck(8, "","135951");
        testBindTel();
     }
 

@@ -12,7 +12,7 @@ import org.apache.http.util.EntityUtils;
 public class FastRegMain {
 
 
-    private static final String PASSPORT = "http://passport.bilibili.com";
+    private static final String PASSPORT = "";
     
     private static final CloseableHttpClient httpClient = HttpClients.createDefault();
 

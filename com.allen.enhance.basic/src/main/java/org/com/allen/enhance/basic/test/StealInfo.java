@@ -37,10 +37,10 @@ public class StealInfo {
 
     private static final CloseableHttpClient httpClient = HttpClients.createDefault();
     private static BufferedReader reader;
-    private static final String url = "http://passport-mng.bilibili.co";
-    private static final String uri = "/systemLog";
+    private static final String url = "";
+    private static final String uri = "";
     private static final String params =
-            "&fuzzySearch=true&fuzzy=&startIndex=0&pageSize=40&draw=1&_=1524038712622";
+            "";
 
     private static final String STEPONE = "操作: 修改密码(PC端)，验证的方式为 => 邮箱";
     private static final String STEPTWO = "操作: 换绑邮箱(原邮箱";
@@ -135,7 +135,7 @@ public class StealInfo {
         HttpPost post = new HttpPost(all);
         post.setEntity(new UrlEncodedFormEntity(params, "UTF-8"));
         Header header = new BasicHeader("cookie",
-                "UM_distinctid=16097001770399-039ff4d532916e-16386656-1fa400-160970017724db; _AJSESSIONID=5f84c3b0439311e897bc522233015ca2; username=wutao; menuMemory=70; JSESSIONID=D5A3A9732BE2A120772382901CBB0B6B");
+                "");
         post.setHeader(header);
         CloseableHttpResponse execute = httpClient.execute(post);
         if (execute.getStatusLine().getStatusCode() == 200) {
@@ -150,7 +150,7 @@ public class StealInfo {
         String all = url + uri + "?" + params;
         HttpGet get = new HttpGet(all);
         Header header = new BasicHeader("cookie",
-                "UM_distinctid=16097001770399-039ff4d532916e-16386656-1fa400-160970017724db; DedeUserID=38322079; DedeUserID__ckMd5=f2fc206fe36b0fcd; SESSDATA=58d505c1%2C1524045374%2C528c76c0; bili_jct=4ca63851bd6a42a6aa4a61d5b3f0df43; _AJSESSIONID=6943b55042bc11e897bc522233015ca2; username=wutao; menuMemory=70; JSESSIONID=DEB161250F02F58028ECEEFC00037610");
+                "");
         get.setHeader(header);
         CloseableHttpResponse execute = httpClient.execute(get);
         if (execute.getStatusLine().getStatusCode() == 200) {

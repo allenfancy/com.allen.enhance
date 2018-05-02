@@ -21,9 +21,6 @@ import java.security.spec.X509EncodedKeySpec;
 
 import sun.misc.BASE64Decoder;
 
-/**
- * Created by tommy on 15-11-22.
- */
 public class RsaHelper {
     private final static Logger LOGGER = LoggerFactory.getLogger(RsaHelper.class);
     private final String PUBLIC_FORMAT = "PUBLIC KEY";
@@ -70,13 +67,6 @@ public class RsaHelper {
             throw new Exception("private key read failed.", e);
         }
     }
-
-    /**
-     * 从字符串中加载公钥
-     *
-     * @param publicKeyStr 公钥数据字符串
-     * @throws Exception 加载公钥时产生的异常
-     */
     public void loadPublicKey(String publicKeyStr) throws Exception {
         publicKeyStr = publicKeyStr.replaceAll(KEY_CONTENT_REGEX, "");
         try {
@@ -94,14 +84,6 @@ public class RsaHelper {
         }
     }
 
-    /**
-     * 解密过程
-     *
-     * @param privateKey 私钥
-     * @param encrypted 密文数据
-     * @return 明文
-     * @throws Exception 解密过程中的异常信息
-     */
     public String decrypt(RSAPrivateKey privateKey, String encrypted) throws Exception {
         if (privateKey == null) {
             throw new Exception("privateKey is empty.");
@@ -125,14 +107,6 @@ public class RsaHelper {
         }
     }
 
-    /**
-     * 加密过程
-     *
-     * @param publicKey 公钥
-     * @param date 明文数据
-     * @return
-     * @throws Exception 加密过程中的异常信息
-     */
     public String encrypt(RSAPublicKey publicKey, String date) throws Exception {
         if (publicKey == null) {
             throw new Exception("publicKey is empty.");

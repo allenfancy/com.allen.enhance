@@ -30,18 +30,17 @@ public class TestInfo {
 
     private static final CloseableHttpClient httpClient = HttpClients.createDefault();
 
-    // private static final String INTER_URL = "http://passport.komoejoy.co.tw";
 
-    private static final String URL = "http://passport.komoejoy.com";
+    private static final String URL = "";
 
-    private static final String ACCOUNT_OUT_URL = "http://account.komoejoy.com";
+    private static final String ACCOUNT_OUT_URL = "";
 
     private static final String appKey = "";
 
     private static final String secret = "";
 
     private static final String PASSPORT = "http://127.0.0.1:8081";
-    private static final String PASSPORT_INTERNAL = "http://passport-mng.bilibili.co";
+    private static final String PASSPORT_INTERNAL = "";
 
 
     private static final Gson GSON = new Gson();
@@ -364,7 +363,7 @@ public class TestInfo {
         System.out.println(all);
         HttpGet get = new HttpGet(all);
         Header header = new BasicHeader("cookie",
-                "UM_distinctid=16097001770399-039ff4d532916e-16386656-1fa400-160970017724db; username=wutao; _AJSESSIONID=4a65fe3046a011e8b877522233007f8a; JSESSIONID=A886ADDE22CAB7C8DE97C4B3A536C137; menuMemory=70");
+                "");
         get.addHeader(header);
         CloseableHttpResponse execute = httpClient.execute(get);
         if (execute.getStatusLine().getStatusCode() == 200) {
