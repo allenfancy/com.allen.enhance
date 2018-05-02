@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop-3.2.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd"
+	default-autowire="byName" default-lazy-init="false">
+
+	<bean id="abstractDataSource" abstract="true"
+		class="com.alibaba.druid.pool.DruidDataSource" init-method="init"
+		destroy-method="close">
+
+		<property name="driveClassName" value="com.mysql.jdbc.Driver" />
+		<property name="maxWait" value="10000" />
+		<!-- 间隔多长时间检测需要关闭空闲连接，单位是毫秒 -->
+		<property name="timeBetweenEvictionRunsMillis" value="60000" />
+		<!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+		<property name="minEvictableIdleTimeMillis" value="20000" />
+		<property name="validationQuery" value="SELECT 'X'" />
+		<property name="testwhileIdle" value="true" />
+		<property name="testOnBorrow" value="false" />
+		<property name="testOnReturn" value="false" />
+		<!-- 打开PSCache，并且指定每个连接上PScache的大小 -->
+		<property name="poolPreparedStatements" value="true" />
+		<property name="maxPoolPreparedStatementPerConnectionSize"
+			value="20" />
+		<property name="filters" value="config" />
+		<property name="connectionProperties" value="config.decrypt=true" />
+	</bean>
+
+	<bean id="readDataSource" parent="abstractDataSource">
+		<property name="url" value="${read.jdbc.url}" />
+		<property name="username" value="${read.jdbc.username}" />
+		<property name="password" value="${read.jdbc.password}" />
+		<!-- 配置初始化大小、最小、最大 -->
+		<property name="initialSize" value="${read.jdbc.initPoolSize}" />
+		<property name="minIdle" value="10" />
+		<property name="maxActive" value="${read.jdbc.maxPoolSize}" />
+	</bean>
+
+	<bean id="writeDataSource" parent="abstractDataSource">
+		<!-- 基本属性 url、user、password -->
+		<property name="url" value="${write.jdbc.url}" />
+		<property name="username" value="${write.jdbc.user}" />
+		<property name="password" value="${write.jdbc.password}" />
+		<!-- 配置初始化大小、最小、最大 -->
+		<property name="initialSize" value="${write.jdbc.initPoolSize}" />
+		<property name="minIdle" value="10" />
+		<property name="maxActive" value="${write.jdbc.maxPoolSize}" />
+	</bean>
+
+	<bean id="readSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="readDataSource" />
+		<property name="mapperLocations" value="classpath:mapper/read/*.xml" />
+	</bean>
+
+	<bean id="writeSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="writeDataSource" />
+		<property name="mapperLocations" value="classpath:mapper/write/*.xml" />
+	</bean>
+</beans>
