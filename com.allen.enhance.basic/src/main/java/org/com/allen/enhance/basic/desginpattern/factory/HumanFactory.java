@@ -2,6 +2,7 @@ package org.com.allen.enhance.basic.desginpattern.factory;
 
 public class HumanFactory extends AbstractHumanFactory {
 
+    @SuppressWarnings("unchecked")
     @Override
     public <T extends Human> T createHuman(Class<T> clazz) {
         T t = null;
@@ -14,7 +15,6 @@ public class HumanFactory extends AbstractHumanFactory {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-
         return t;
     }
 }

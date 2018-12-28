@@ -1,0 +1,1 @@
+package org.com.allen.enhance.basic.dubbo;public class UserServiceImpl implements UserService {    @Override    public void sayHello(String args) {        System.out.println("hello" + args);    }}

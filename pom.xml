@@ -26,12 +26,14 @@
 		<lettuce.version>4.4.0.Final</lettuce.version>
 		<undertow.version>2.0.0.Final</undertow.version>
 		<archaius.version>0.6.0</archaius.version>
+		<elastic-job.version>2.1.5</elastic-job.version>
 	</properties>
 	<modules>
 		<module>com.allen.enhance.zipkin</module>
 		<module>com.allen.springframework</module>
 		<module>com.allen.enhance.tomcat</module>
 		<module>com.allen.enhance.hbase</module>
+		<module>com.allen.enhance.mybatis</module>
 		<module>com.allen.enhance.basic</module>
 		<module>com.allen.enhance.undertow</module>
 		<module>com.allen.enhance.hystrix</module>
@@ -39,6 +41,8 @@
 		<module>com.allen.enhance.feign</module>
 		<module>com.allen.enhance.springboot</module>
 		<module>com.allen.enhance.archaius</module>
+		<module>com.allen.enhance.grpc</module>
+		<module>com.allen.enhance.designpattern</module>
 	</modules>
 	<!-- spring boot基本环境 -->
 	<parent>
@@ -48,6 +52,97 @@
 	</parent>
 	<dependencyManagement>
 		<dependencies>
+			<!-- elastic job -->
+			<dependency>
+				<artifactId>elastic-job-lite-core</artifactId>
+				<groupId>com.dangdang</groupId>
+				<version>${elastic-job.version}</version>
+			</dependency>
+			<dependency>
+				<artifactId>elastic-job-lite-spring</artifactId>
+				<groupId>com.dangdang</groupId>
+				<version>${elastic-job.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.lucene</groupId>
+				<artifactId>lucene-core</artifactId>
+				<version>4.0.0</version>
+			</dependency>
+			<dependency>
+				<groupId>com.google.protobuf</groupId>
+				<artifactId>protobuf-java</artifactId>
+				<version>3.3.0</version>
+			</dependency>
+
+			<dependency>
+				<groupId>io.grpc</groupId>
+				<artifactId>grpc-all</artifactId>
+				<version>0.13.2</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.shyiko</groupId>
+				<artifactId>mysql-binlog-connector-java</artifactId>
+				<version>0.16.1</version>
+			</dependency>
+
+			<dependency>
+				<groupId>log4j</groupId>
+				<artifactId>log4j</artifactId>
+				<version>1.2.17</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.netflix.ribbon</groupId>
+				<artifactId>ribbon-httpclient</artifactId>
+				<scope>compile</scope>
+				<version>2.2.5</version>
+			</dependency>
+			<dependency>
+				<groupId>com.netflix.ribbon</groupId>
+				<artifactId>ribbon-loadbalancer</artifactId>
+				<scope>compile</scope>
+				<version>2.2.5</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-crypto</artifactId>
+				<version>1.0.0</version>
+			</dependency>
+
+			<dependency>
+				<groupId>net.logstash.logback</groupId>
+				<artifactId>logstash-logback-encoder</artifactId>
+				<version>4.11</version>
+			</dependency>
+			<dependency>
+				<groupId>com.squareup.retrofit2</groupId>
+				<artifactId>retrofit</artifactId>
+				<version>2.3.0</version>
+			</dependency>
+			<dependency>
+				<groupId>com.squareup.retrofit2</groupId>
+				<artifactId>converter-gson</artifactId>
+				<version>2.3.0</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.zookeeper</groupId>
+				<artifactId>zookeeper</artifactId>
+				<version>3.4.5</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.curator</groupId>
+				<artifactId>curator-framework</artifactId>
+				<version>2.10.0</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.alibaba</groupId>
+				<artifactId>dubbo</artifactId>
+				<version>2.6.2</version>
+			</dependency>
+
 			<dependency>
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis</artifactId>
@@ -72,14 +167,13 @@
 			<dependency>
 				<groupId>io.netty</groupId>
 				<artifactId>netty-all</artifactId>
-				<version>4.1.16.Final</version>
+				<version>4.1.0.CR3</version>
 			</dependency>
 			<dependency>
 				<groupId>com.alibaba</groupId>
 				<artifactId>fastjson</artifactId>
 				<version>1.2.47</version>
 			</dependency>
-
 			<dependency>
 				<groupId>com.caucho</groupId>
 				<artifactId>hessian</artifactId>
@@ -386,6 +480,11 @@
 				<groupId>io.undertow</groupId>
 				<artifactId>undertow-servlet</artifactId>
 				<version>${undertow.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.alibaba.nacos</groupId>
+				<artifactId>nacos-spring-context</artifactId>
+				<version>0.2.1-RC1</version>
 			</dependency>
 		</dependencies>
 

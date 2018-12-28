@@ -1,0 +1,1 @@
+package org.com.allen.enhance.basic.dubbo;public interface UserService {    void sayHello(String args);}

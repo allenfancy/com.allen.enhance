@@ -25,17 +25,14 @@ public class TestMain {
         DynamicConfiguration configuration = new DynamicConfiguration(source, scheduler);
         ConfigurationManager.install(configuration);
 
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                while (true) {
-                    try {
-                        Thread.sleep(1000 * 10);
-                        DynamicStringProperty myprop = DynamicPropertyFactory.getInstance().getStringProperty("allen", "default");
-                        System.out.println("-----vaule:" + myprop.getValue());
-                    } catch (Exception e) {
+        new Thread(() -> {
+            while (true) {
+                try {
+                    Thread.sleep(1000 * 10);
+                    DynamicStringProperty myprop = DynamicPropertyFactory.getInstance().getStringProperty("allen", "default");
+                    System.out.println("-----Value is :" + myprop.getValue());
+                } catch (Exception e) {
 
-                    }
                 }
             }
         }).start();

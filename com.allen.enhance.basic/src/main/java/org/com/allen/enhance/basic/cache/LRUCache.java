@@ -24,7 +24,8 @@ public class LRUCache<K, V> implements Cache<K, V> {
 
     @Override
     public V getObject(K k) {
-        keyMap.get(k);
+        V v = keyMap.get(k);
+        System.out.println(v);
         return delegate.getObject(k);
     }
 

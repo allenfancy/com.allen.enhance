@@ -23,9 +23,11 @@
 /Users/allen/workspace/eclipse-workspace/com.allen.enhance/com.allen.springframework/src/main/java/com/allen/springframework/service/impl/Portfolio.java
 /Users/allen/workspace/eclipse-workspace/com.allen.enhance/com.allen.springframework/src/main/java/com/allen/springframework/jdbc/model/UserInfo.java
 /Users/allen/workspace/eclipse-workspace/com.allen.enhance/com.allen.springframework/src/main/java/com/allen/springframework/service/impl/UserServiceImpl.java
+/Users/allen/workspace/eclipse-workspace/com.allen.enhance/com.allen.springframework/src/main/java/com/allen/springframework/config/NacosConfiguraiton.java
 /Users/allen/workspace/eclipse-workspace/com.allen.enhance/com.allen.springframework/src/main/java/com/allen/springframework/aop/demo2/ArgsAspectConfig.java
 /Users/allen/workspace/eclipse-workspace/com.allen.enhance/com.allen.springframework/src/main/java/com/allen/springframework/model/User.java
 /Users/allen/workspace/eclipse-workspace/com.allen.enhance/com.allen.springframework/src/main/java/com/allen/springframework/service/impl/MathApplication.java
+/Users/allen/workspace/eclipse-workspace/com.allen.enhance/com.allen.springframework/src/main/java/com/allen/springframework/controller/ConfigController.java
 /Users/allen/workspace/eclipse-workspace/com.allen.enhance/com.allen.springframework/src/main/java/com/allen/springframework/jdbc/dao/UserInfoDao.java
 /Users/allen/workspace/eclipse-workspace/com.allen.enhance/com.allen.springframework/src/main/java/com/allen/springframework/beans/BeanConfiguration.java
 /Users/allen/workspace/eclipse-workspace/com.allen.enhance/com.allen.springframework/src/main/java/com/allen/springframework/jdbc/exception/CustomDefinitonException.java

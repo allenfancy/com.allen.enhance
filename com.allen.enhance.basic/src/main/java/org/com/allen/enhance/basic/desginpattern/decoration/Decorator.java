@@ -2,6 +2,7 @@ package org.com.allen.enhance.basic.desginpattern.decoration;
 
 public abstract class Decorator extends SchoolReport {
 
+    // 指向Component
     private SchoolReport sr;
 
     public Decorator(SchoolReport sr) {

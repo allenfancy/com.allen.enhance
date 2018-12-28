@@ -35,6 +35,7 @@ public class RpcFrameWork {
                     input.close();
                     socket.close();
                 } catch (Exception e) {
+                    e.printStackTrace();
                 }
             }
         }

@@ -34,17 +34,16 @@ public class TwinsLockTest {
             Worker worker = new Worker();
             worker.start();
         }
-        new Thread() {
-            public void run() {
-                while (true) {
-                    try {
-                        Thread.sleep(200L);
-                        System.out.println("========");
-                    } catch (Exception e) {
-                    }
+        new Thread(() -> {
+            while (true) {
+                try {
+                    Thread.sleep(200L);
+                    System.out.println("========");
+                } catch (Exception e) {
+                    e.printStackTrace();
                 }
             }
-        }.start();
+        }).start();
 
         try {
             Thread.sleep(20000L);

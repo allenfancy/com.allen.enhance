@@ -1,6 +1,7 @@
 package org.com.allen.enhance.basic.desginpattern.decoration;
 
 public class Father {
+
     public static void main(String[] args) {
         SchoolReport sr;
         sr = new FouthGradeSchoolReport();

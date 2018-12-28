@@ -1,0 +1,21 @@
+syntax = "proto3";
+package accountService;
+option java_package = "org.com.allen.enhance.grpc.proto";
+option java_outer_classname = "QueryAccountProto";
+
+message AccountQueryRequest {
+    string requestId = 1;
+    string userId = 2;
+}
+
+message AccountQueryResponse {
+    string requestId = 1;
+    // 状态
+    int32 rc = 2;
+    string msg = 3;
+    int32 amount = 4;
+}
+
+service QueryAccountService {
+    rpc Query (AccountQueryRequest) returns (AccountQueryResponse);
+}

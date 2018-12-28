@@ -1,0 +1,1 @@
+package org.com.allen.enhance.basic.jvm;import lombok.Data;@Datapublic class TestBean {    private String name;}

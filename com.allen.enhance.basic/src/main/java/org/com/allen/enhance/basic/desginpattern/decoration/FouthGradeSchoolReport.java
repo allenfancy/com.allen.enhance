@@ -1,5 +1,8 @@
 package org.com.allen.enhance.basic.desginpattern.decoration;
 
+/**
+ * 具体的实现
+ */
 public class FouthGradeSchoolReport extends SchoolReport {
 
     @Override

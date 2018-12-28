@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.allen.enhance.archaius" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.allen.enhance.basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.allen.enhance.designpattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.allen.enhance.feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.allen.enhance.grpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.allen.enhance.hbase" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.allen.enhance.hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.allen.enhance.mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.allen.enhance.springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.allen.enhance.swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.allen.enhance.tomcat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.allen.enhance.undertow" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.allen.enhance.zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com.allen.springframework" charset="UTF-8" />
+  </component>
+</project>
