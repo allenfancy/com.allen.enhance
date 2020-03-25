@@ -2,62 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e2aa767-fd5e-4b8f-bbbf-b440e848b4d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/array/LeetCode11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/array/LeetCode14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/array/LeetCode169.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/array/LeetCode283.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/array/LeetCode70.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/list/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/recursion/LeetCode22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/stack/LeetCode20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/tree/AllTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/tree/LeetCode104.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/tree/LeetCode98.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/tree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/tree/树.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/concurrent/aqs/BoundedBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/concurrent/sync/SyncThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/concurrent/sync/SyncThread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/concurrent/sync/SyncThread3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/concurrent/sync/aqs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/test/ApiSignHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/test/HttpCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/test/HttpClientUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/test/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/test/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/test/TestMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/test/TestMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/test/TestMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/test/TestMain4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/test/TestPostByMultiThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/emacs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/datastruct/tree/binaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/datastruct/tree/binaryTree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/desginpattern/prototype/DeepCopyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/desginpattern/prototype/DeepCopyMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/desginpattern/prototype/PrototypeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/desginpattern/prototype/PrototypeMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/leetcode/链表倒置.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/leetcode/链表倒置.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/redis/jedis/JedisSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/redis/jedis/JedisSingle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/META-INF/maven/com.allen.enhance.basic/com.allen.enhance.basic/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/META-INF/maven/com.allen.enhance.basic/com.allen.enhance.basic/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/concurrent/locks/BoundedBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/concurrent/locks/BoundedBuffer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/concurrent/locks/TwinsLockTest$1Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/concurrent/locks/TwinsLockTest$1Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/redis/jedis/JedisSingle.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/redis/jedis/JedisSingle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/redis/redisson/RedissonCluster.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/redis/redisson/RedissonCluster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/rpc/RpcFrameWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/rpc/RpcFrameWork.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/writeAndRead/plan2/DynamicDataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/writeAndRead/plan2/DynamicDataSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/writeAndRead/plan3/DynamicRoutingDataSourceProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/writeAndRead/plan3/DynamicRoutingDataSourceProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/test/TestPostByMultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/test/TestPostByMultiThread.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -225,7 +170,7 @@
       <workItem from="1584985075499" duration="8328000" />
       <workItem from="1585040075048" duration="4610000" />
       <workItem from="1585047107098" duration="460000" />
-      <workItem from="1585058573988" duration="611000" />
+      <workItem from="1585058573988" duration="859000" />
     </task>
     <servers />
   </component>
