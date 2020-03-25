@@ -222,10 +222,12 @@ public class BinaryTree extends AbstactBinaryTree {
                 list.add(temp);
                 pre = temp;
             } else {
-                if (cur.rightNode != null)
+                if (cur.rightNode != null) {
                     stack.push(cur.rightNode);
-                if (cur.leftNode != null)
+                }
+                if (cur.leftNode != null) {
                     stack.push(cur.leftNode);
+                }
             }
         }
         for (Node node : list) {
@@ -253,6 +255,15 @@ public class BinaryTree extends AbstactBinaryTree {
         }
     }
 
+    public static int maxDepth(Node root) {
+        if (root == null) {
+            return 0;
+        }
+        int left = maxDepth(root.getLeftNode());
+        int rigth = maxDepth(root.getRightNode());
+        return Math.max(left, rigth) + 1;
+    }
+
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
         tree.insert(6, 6);// 插入操作,构造图一所示的二叉树
@@ -266,5 +277,6 @@ public class BinaryTree extends AbstactBinaryTree {
         tree.insert(12, 12);
         tree.inOrderRec(tree.getRoot());
         tree.inOrder();
+        System.out.println(maxDepth(tree.getRoot()));
     }
 }

@@ -48,9 +48,9 @@ public class 链表倒置 {
     }
 
     public static void main(String[] args) {
-        Node node = new Node(1,null);
-        Node node1 = new Node(2,node);
-        Node node2 = new Node(3,node1);
+        Node node = new Node(1, null);
+        Node node1 = new Node(2, node);
+        Node node2 = new Node(3, node1);
         //System.out.println( reverseLinkedNode(node2));
         reverseLinkedList(node2);
     }

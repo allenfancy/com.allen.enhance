@@ -130,7 +130,7 @@ public class BinaryTree {
         while (!stack.isEmpty()) {
             currentNode = stack.peek();
             if ((currentNode.getLeft() == null && currentNode.getRight() == null) ||
-                (preNode != null && (currentNode.getRight() == preNode || currentNode.getRight() == preNode))) {
+                    (preNode != null && (currentNode.getRight() == preNode || currentNode.getRight() == preNode))) {
                 Node temp = stack.pop();
                 lists.add(temp);
                 preNode = temp;
@@ -138,6 +138,44 @@ public class BinaryTree {
 
             }
         }
+    }
+
+    public static List<Integer> inorderTraversal(Node root) {
+        Stack<Node> stack = new Stack<>();
+        List<Integer> res = new ArrayList<>();
+        Node curNode = root;
+        while (curNode != null || !stack.isEmpty()) {
+            while (curNode != null) {
+                stack.push(curNode);
+                curNode = curNode.getLeft();
+            }
+            if (!stack.isEmpty()) {
+                Node pop = stack.pop();
+                res.add(pop.getItem());
+                curNode = pop.getRight();
+            }
+        }
+        return res;
+    }
+
+    public static void levelOrderTraversal(Node root) {
+        if (root == null) {
+            return;
+        }
+        Stack<Node> stack = new Stack<>();
+        Node curNode = root;
+        stack.push(curNode);
+        while (!stack.isEmpty()) {
+            Node pop = stack.pop();
+            System.out.print(pop.getItem() + "\t");
+            if (pop.getLeft() != null) {
+                stack.push(pop.getLeft());
+            }
+            if (pop.getRight() != null) {
+                stack.push(pop.getRight());
+            }
+        }
+        System.out.println();
     }
 
     public static void main(String[] args) {
@@ -157,7 +195,7 @@ public class BinaryTree {
         tree.inMinRec(tree.root);
         System.out.println();
         tree.inMin(tree.root);
-
+        levelOrderTraversal(tree.root);
     }
 
 }
