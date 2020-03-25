@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e2aa767-fd5e-4b8f-bbbf-b440e848b4d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/test/TestPostByMultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/test/TestPostByMultiThread.java" afterDir="false" />
-    </list>
+    <list default="true" id="8e2aa767-fd5e-4b8f-bbbf-b440e848b4d9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +55,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.SyncThread3">
-    <configuration name="BinaryTree (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.com.allen.enhance.basic.algorithm.tree.BinaryTree" />
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.com.allen.enhance.basic.algorithm.base.tree.BinaryTree" />
       <module name="com.allen.enhance.basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.com.allen.enhance.basic.algorithm.tree.*" />
+          <option name="PATTERN" value="org.com.allen.enhance.basic.algorithm.base.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,7 +168,7 @@
       <workItem from="1584985075499" duration="8328000" />
       <workItem from="1585040075048" duration="4610000" />
       <workItem from="1585047107098" duration="460000" />
-      <workItem from="1585058573988" duration="859000" />
+      <workItem from="1585058573988" duration="1081000" />
     </task>
     <servers />
   </component>

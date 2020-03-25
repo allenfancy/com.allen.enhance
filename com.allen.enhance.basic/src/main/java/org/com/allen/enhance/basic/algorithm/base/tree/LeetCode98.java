@@ -1,8 +1,5 @@
 package org.com.allen.enhance.basic.algorithm.base.tree;
 
-import lombok.val;
-import org.com.allen.enhance.basic.algorithm.tree.Node;
-
 import java.util.Stack;
 
 /**

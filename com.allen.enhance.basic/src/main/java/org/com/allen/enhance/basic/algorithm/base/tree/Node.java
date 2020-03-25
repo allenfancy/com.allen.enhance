@@ -1,4 +1,4 @@
-package org.com.allen.enhance.basic.algorithm.tree;
+package org.com.allen.enhance.basic.algorithm.base.tree;
 
 import java.util.Objects;
 
