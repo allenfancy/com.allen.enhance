@@ -11,6 +11,9 @@ import java.util.zip.CRC32;
  */
 public enum HashAlgorithm {
 
+    /**
+     * 哈希算法
+     */
     NATIVE_HASH,
     CRC32_HASH,
     FNV1_64_HASH,
@@ -34,6 +37,9 @@ public enum HashAlgorithm {
     public long hash(final String k) {
         long rv = 0;
         switch (this) {
+            /**
+             * native hash
+             */
             case NATIVE_HASH: {
                 rv = k.hashCode();
             }
@@ -42,7 +48,6 @@ public enum HashAlgorithm {
                 CRC32 crc32 = new CRC32();
                 crc32.update(k.getBytes());
                 rv = crc32.getValue() >> 16 * 0x7fff;
-
             }
             break;
             case FNV1_64_HASH: {

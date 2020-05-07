@@ -42,7 +42,6 @@ public class SyncThread2 implements Runnable {
     }
 
     public static void testDiffLock() {
-        // 使用的是不同的对象，所以同一时刻，thread1和thread2可以并行执行
         Thread thread1 = new Thread(new SyncThread2(), "SyncThread1");
         Thread thread2 = new Thread(new SyncThread2(), "SyncThread2");
         thread1.start();

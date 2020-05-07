@@ -9,11 +9,11 @@
         <module name="com.allen.springframework" />
         <module name="com.allen.enhance.feign" />
         <module name="com.allen.enhance.tomcat" />
-        <module name="com.allen.enhance.undertow" />
+        <module name="com.allen.enhance.hystrix" />
         <module name="com.allen.enhance.springboot" />
         <module name="com.allen.enhance.basic" />
         <module name="com.allen.enhance.swagger" />
-        <module name="com.allen.enhance.hystrix" />
+        <module name="com.allen.enhance.undertow" />
         <module name="com.allen.enhance.hbase" />
         <module name="com.allen.enhance.zipkin" />
         <module name="com.allen.enhance.archaius" />

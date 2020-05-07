@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class CallableAndFuture {
 
-    public static <V> void main(String[] args) {
+    public static  void main(String[] args) {
         // 1.1 Callable
         Callable<Integer> callable = new Callable<Integer>() {
             @Override
@@ -28,7 +28,7 @@ public class CallableAndFuture {
         new Thread(future).start();
         try {
             // 1.4 获取值
-            System.out.println(future.get(1, TimeUnit.MICROSECONDS));
+            System.out.println(future.get(1, TimeUnit.SECONDS));
         } catch (Exception e) {
             e.printStackTrace();
         }

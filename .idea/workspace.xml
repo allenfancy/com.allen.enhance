@@ -1,16 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e2aa767-fd5e-4b8f-bbbf-b440e848b4d9" name="Default Changelist" comment="" />
+    <list default="true" id="8e2aa767-fd5e-4b8f-bbbf-b440e848b4d9" name="Default Changelist" comment="se">
+      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/list/ListAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/list/TestListAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/stack/LeetCode316.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/concurrent/aqs/Pool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/jmx/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/jmx/HelloMBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/jmx/JmxDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/jmx/JmxDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/jmx/jmx.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/mq/kafka/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/mq/kafka/ConsumerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/mq/kafka/KafkaConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/mq/kafka/KafkaConsumerDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/mq/kafka/KafkaProducerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/mq/kafka/resetoffset/ConsumerThread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/mq/kafka/resetoffset/KafkaConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/list/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/list/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/tree/tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/tree/tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/hash/HashAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/hash/HashAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/concurrent/future/CallableAndFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/concurrent/future/CallableAndFuture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/concurrent/future/CallableAndFuture2.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/concurrent/future/CallableAndFuture2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/concurrent/sync/SyncThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/concurrent/sync/SyncThread2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/algorithm/base/list/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/algorithm/base/list/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/algorithm/base/tree/LeetCode98.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/algorithm/base/tree/LeetCode98.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/algorithm/base/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/algorithm/base/tree/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/algorithm/hash/HashAlgorithm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/algorithm/hash/HashAlgorithm$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/algorithm/hash/HashAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/algorithm/hash/HashAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/algorithm/tree/AbstactBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/algorithm/tree/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/algorithm/tree/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/concurrent/future/CallableAndFuture.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/concurrent/future/CallableAndFuture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/concurrent/future/CallableAndFuture2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/concurrent/future/CallableAndFuture2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/concurrent/future/CallableAndFuture2.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/concurrent/future/CallableAndFuture2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/concurrent/sync/SyncThread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/concurrent/sync/SyncThread2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/concurrent/sync/SyncThread3.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/concurrent/sync/SyncThread3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/test/ApiSignHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/test/HttpCallable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/test/HttpClientUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/test/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/test/TestMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/test/TestMain1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/test/TestMain2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/test/TestMain3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/test/TestMain4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.allen.enhance.basic/target/classes/org/com/allen/enhance/basic/test/TestPostByMultiThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -30,16 +84,25 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1Z3tIo15ID95prRv8K25iqPjy2V" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.com.allen.enhance.basic.mq.kafka.resetoffset" />
+      <recent name="org.com.allen.enhance.basic.mq.kafka" />
       <recent name="org.com.allen.enhance.basic.concurrent.sync" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/tree" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -55,12 +118,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.SyncThread3">
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.com.allen.enhance.basic.algorithm.base.tree.BinaryTree" />
+    <configuration name="JmxDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.com.allen.enhance.basic.jmx.JmxDemo1" />
       <module name="com.allen.enhance.basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.com.allen.enhance.basic.algorithm.base.tree.*" />
+          <option name="PATTERN" value="org.com.allen.enhance.basic.jmx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode169" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.com.allen.enhance.basic.algorithm.base.array.LeetCode169" />
+    <configuration name="KafkaConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.com.allen.enhance.basic.mq.kafka.KafkaConsumerDemo" />
       <module name="com.allen.enhance.basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.com.allen.enhance.basic.algorithm.base.array.*" />
+          <option name="PATTERN" value="org.com.allen.enhance.basic.mq.kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,13 +183,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.allen.enhance.zipkin" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.allen.enhance.zipkin.App" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="com.allen.enhance.springboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.com.allen.enhance.springboot.App" />
@@ -134,13 +190,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.JmxDemo1" />
+      <item itemvalue="Application.KafkaConsumerDemo" />
+      <item itemvalue="Application.SyncThread2" />
+      <item itemvalue="Application.SyncThread" />
+      <item itemvalue="Application.SyncThread3" />
+      <item itemvalue="Spring Boot.App" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SyncThread3" />
         <item itemvalue="Application.SyncThread2" />
         <item itemvalue="Application.SyncThread" />
-        <item itemvalue="Application.BinaryTree (1)" />
-        <item itemvalue="Application.LeetCode169" />
+        <item itemvalue="Application.JmxDemo1" />
+        <item itemvalue="Application.KafkaConsumerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +232,28 @@
       <workItem from="1584985075499" duration="8328000" />
       <workItem from="1585040075048" duration="4610000" />
       <workItem from="1585047107098" duration="460000" />
-      <workItem from="1585058573988" duration="1081000" />
+      <workItem from="1585058573988" duration="3562000" />
+      <workItem from="1585189052859" duration="1427000" />
+      <workItem from="1585213982933" duration="454000" />
+      <workItem from="1585214712432" duration="4637000" />
+      <workItem from="1585283122396" duration="7561000" />
+      <workItem from="1585450884925" duration="910000" />
+      <workItem from="1585454590074" duration="598000" />
+      <workItem from="1585556535274" duration="938000" />
+      <workItem from="1585809671361" duration="21000" />
+      <workItem from="1585809706835" duration="6000" />
+      <workItem from="1586771778897" duration="86000" />
+      <workItem from="1586845727267" duration="1200000" />
+      <workItem from="1587027824147" duration="524000" />
+      <workItem from="1587061493925" duration="1624000" />
+      <workItem from="1587139838454" duration="3612000" />
+      <workItem from="1587308863933" duration="295000" />
+      <workItem from="1587354049672" duration="2978000" />
+      <workItem from="1587379300680" duration="116000" />
+      <workItem from="1587485549906" duration="90000" />
+      <workItem from="1587485667745" duration="1941000" />
+      <workItem from="1587548556218" duration="13000" />
+      <workItem from="1587743800676" duration="112000" />
     </task>
     <servers />
   </component>
@@ -205,6 +290,26 @@
           <url>file://$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/array/LeetCode169.java</url>
           <line>21</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/list/ListAlgorithm.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/list/ListAlgorithm.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/list/TestListAlgorithm.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com.allen.enhance.basic/src/main/java/org/com/allen/enhance/basic/algorithm/base/list/ListAlgorithm.java</url>
+          <line>327</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
