@@ -36,6 +36,7 @@ public enum HashAlgorithm {
 
     public long hash(final String k) {
         long rv = 0;
+
         switch (this) {
             /**
              * native hash
@@ -44,12 +45,18 @@ public enum HashAlgorithm {
                 rv = k.hashCode();
             }
             break;
+            /**
+             * crc32_hash
+             */
             case CRC32_HASH: {
                 CRC32 crc32 = new CRC32();
                 crc32.update(k.getBytes());
                 rv = crc32.getValue() >> 16 * 0x7fff;
             }
             break;
+            /**
+             * FNV1_64_hash
+             */
             case FNV1_64_HASH: {
                 rv = FNV_64_INIT;
                 int len = k.length();
@@ -60,6 +67,9 @@ public enum HashAlgorithm {
 
             }
             break;
+            /**
+             * FNV1A_64_HASH
+             */
             case FNV1A_64_HASH: {
                 rv = FNV_64_INIT;
                 int len = k.length();
@@ -69,6 +79,9 @@ public enum HashAlgorithm {
                 }
             }
             break;
+            /**
+             * FNV1_32_HASH
+             */
             case FNV1_32_HASH: {
                 rv = FNV_32_INIT;
                 int len = k.length();
@@ -78,6 +91,9 @@ public enum HashAlgorithm {
                 }
             }
             break;
+            /**
+             * FNV1A_32_HASH
+             */
             case FNV1A_32_HASH: {
                 rv = FNV_32_INIT;
                 int len = k.length();
@@ -87,12 +103,21 @@ public enum HashAlgorithm {
                 }
             }
             break;
+            /**
+             * ELECTION_HASH
+             */
             case ELECTION_HASH:
+                /**
+                 * KETAMA_HASH
+                 */
             case KETAMA_HASH:
                 byte[] bKey = computeMd5(k);
                 rv = (long) (bKey[3] & 0xFF) << 24 | (long) (bKey[2] & 0xFF) << 16
-                    | (long) (bKey[1] & 0xFF) << 8 | bKey[0] & 0xFF;
+                        | (long) (bKey[1] & 0xFF) << 8 | bKey[0] & 0xFF;
                 break;
+            /**
+             * MYSQL_HASH
+             */
             case MYSQL_HASH:
                 int nr2 = 4;
                 for (int i = 0; i < k.length(); i++) {
@@ -100,6 +125,9 @@ public enum HashAlgorithm {
                     nr2 += 3;
                 }
                 break;
+            /**
+             * ELF_HASH
+             */
             case ELF_HASH:
                 long x = 0;
                 for (int i = 0; i < k.length(); i++) {
@@ -111,6 +139,9 @@ public enum HashAlgorithm {
                 }
                 rv = rv & 0x7FFFFFFF;
                 break;
+            /**
+             * RS_HASH
+             */
             case RS_HASH:
                 long b = 378551;
                 long a = 63689;
@@ -120,6 +151,9 @@ public enum HashAlgorithm {
                 }
                 rv = rv & 0x7FFFFFFF;
                 break;
+            /**
+             * LUA_HASH
+             */
             case LUA_HASH:
                 int step = (k.length() >> 5) + 1;
                 rv = k.length();
@@ -127,6 +161,9 @@ public enum HashAlgorithm {
                     rv = rv ^ (rv << 5) + (rv >> 2) + k.charAt(len - 1);
                 }
                 break;
+            /**
+             * ONE_AT_A_TIME
+             */
             case ONE_AT_A_TIME:
                 try {
                     int hash = 0;
@@ -142,6 +179,8 @@ public enum HashAlgorithm {
                 } catch (UnsupportedEncodingException e) {
                     throw new IllegalStateException("Hash function error", e);
                 }
+                break;
+            default:
                 break;
         }
         return rv & 0xffffffffL;
